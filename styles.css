@@ -28,5 +28,10 @@ p.subtitle {
   float: left;
 }
 
+span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
 
 
