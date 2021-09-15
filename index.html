@@ -1,89 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
-
-    <!-- tab title -->
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="./about.css">
     <title>Séverin Mboukou</title>
   </head>
   <body>
-
-    <!-- header -->
-    <header class="header-wrapper">
-      <nav class="navBar">
-        <a href="http://index.hmtl" class="dev-name">Séverin Mboukou</a>
-        <a href="#">Profil</a>
-        <a href="#">Expériences</a>
-        <a href="#">Formations</a>
-      </nav>
-    </header>
-
-    <!-- profil / photo -->
-    <div class="container-white profile">
-      <div class="job-title">
+    <div class="header">
+      <a href="#index.html" class="logo">Séverin Mboukou</a>
+      <div class="header-right">
+        <a class="active" href="#profile">Profil</a>
+        <a href="#exp">Expériences</a>
+        <a href="#education">Formations</a>
+      </div>
+    </div>
+    <div class="container-profile" id="profile">
+      <div class="title">
         <h1>Séverin Mboukou</h1>
         <h2>Développeur Fullstack</h2>
       </div>
-      <div class="photo-profile">
-        <img src="./img/severin_mboukou.png" alt="Séverin Mboukou" />
+      <div class="photo">
+        <img src="./img/severin_mboukou.png" alt="Séverin Mboukou">
       </div>
     </div>
+   <div class="container-about" id="about">
 
-    <!-- presentation -->
-    <div class="container-blue about">
-      <p class="subtitle">Présentation</p>
+    <div class="subtitle-about">
+      <p>Présentation</p>
+    </div>
+
+    <div class="about-list">
       <ul>
         <li>Passionné de nouvelles technologies</li>
         <li>Autonome, rigoureux</li>
         <li>Une bonne journée ne se passe pas sans un bon livre</li>
       </ul>
     </div>
-
-    <!-- expériences professionnelles -->
-    <div class="container-white work-experience">
-      <p class="subtitle">Expérinces professionnelles</p>
-      <p>Stagiaire en développement chez TechLabs 2018</p>
-      <p>Création de sites web</p>
-      <p>Créations de tests unitaires pour l'application interne</p>
-      <p>Bénévole Konexio 2016-2018</p>
-      <p>Organisation des événements</p>
-      <p>Bénévole Konexio</p>
-      <p>Validation des comptes de l'association</p>
+    
     </div>
 
-    <!-- cursus -->
-    <div class="container-blue education">
-      <p class="subtitle">Formation</p>
-      <p>Licence en médecine à Paris XXIsection 2015-2018</p>
-      <p>Bac S au lycée Marco Polo 2015</p>
-    </div>
-
-    <!-- centre d'intérêts -->
-    <div class="container-white activities">
-      <p class="subtitle">Passions</p>
-      <p>Saut en parachute, Bali</p>
-    </div>
-
-    <!-- footer / ressources -->
-    <footer class="footer">
-      <div class="blogs">
-        <a href="#">Mon blog tech</a>
-        <a href="#">Mon blog voyage</a>
-      </div>
-      <div class="references">
-        <a href="https://linkedin.com/in/severinmboukou">Linkedin</a>
-        <a href="http://">Twitter</a>
-      </div>
-    </footer>
-
-    <!-- fin -->
   </body>
 </html>
